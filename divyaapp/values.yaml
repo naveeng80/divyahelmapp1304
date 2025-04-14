@@ -19,7 +19,8 @@ myimage:
 
 # This is for setting up a service more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/
 myservice:
-  type: LoadBalancer
+  
+  type: NodePort
   port: 80
   servicename: divya-service
   myprotocol: TCP
